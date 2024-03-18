@@ -1,0 +1,32 @@
+.GO_Main_Body{
+    background-color: #00061D;
+    color: white;
+    font-size: 16px;
+}
+.NM_title{
+    text-align: center;
+    padding: 60px 100px 10px 100px;
+}
+.GO_Information{
+    padding:0 300px 0 150px;
+}
+.Badass_title{
+    text-align: center;
+    padding: 50px 100px 10px 100px;
+}
+.ul{
+    list-style-type: circle;
+}
+.Multiplayer_title{
+    text-align: center;
+    padding: 60px 100px 0px 100px;
+}
+.PM_title div video{
+    width: 100%;
+}
+video::-webkit-media-controls {
+    display: none;
+  }
+  body{
+    background-color: #00061D;
+  }

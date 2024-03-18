@@ -1,0 +1,27 @@
+function hide_all(x){
+    document.getElementById('Knight').style.display='none';
+    document.getElementById('Rogue').style.display='none';
+    document.getElementById('Wizard').style.display='none';
+    document.getElementById('Assassin').style.display='none';
+    document.getElementById('Alchemist').style.display='none';
+    document.getElementById('Engineer').style.display='none';
+    document.getElementById('Vampire').style.display='none';
+    document.getElementById('Paladin').style.display='none';
+    document.getElementById('Elf').style.display='none';
+    document.getElementById('Werewolf').style.display='none';
+    document.getElementById('Priest').style.display='none';
+    document.getElementById('Druid').style.display='none';
+    document.getElementById('Robot').style.display='none';
+    document.getElementById('Berserker').style.display='none';
+    document.getElementById('Necromancer').style.display='none';
+    document.getElementById('Officer').style.display='none';
+    document.getElementById('Taoist').style.display='none';
+    document.getElementById('Airbender').style.display='none';
+    document.getElementById('Demonmancer').style.display='none';
+    document.getElementById('Traveler').style.display='none';
+    document.getElementById('Envoy').style.display='none';
+    document.getElementById('Beheaded').style.display='none';
+    document.getElementById('Ninja').style.display='none';
+    document.getElementById('Forces').style.display='none';
+    document.getElementById(x).style.display='block';
+};

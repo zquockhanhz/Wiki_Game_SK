@@ -1,0 +1,38 @@
+.content_holder{
+    margin: 0;
+}
+.background_main{
+    height: auto;
+    width: 100%;
+}
+video::-webkit-media-controls {
+    display: none;
+  }
+.background_main div video{
+    width: 100%;
+}
+
+body{
+    color: white;
+    background-color: #00061D;
+    padding: 0;
+    margin: 0;
+}
+.Main_page{
+    background-color: #00061D;
+    font-size: 20px;
+}
+.link{
+    color: #3399FF;
+    text-decoration: none;
+}
+.Title{
+    text-align: center;
+    padding: 50px 100px 0px 100px;
+}
+.Information{
+    padding:0 300px 0 150px;
+}
+.Source{
+    font-size: 20px;
+}

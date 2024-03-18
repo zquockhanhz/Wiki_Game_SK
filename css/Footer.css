@@ -1,0 +1,20 @@
+footer{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    background-image: url(./img/general_img/backgroung.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: -200px 100px;
+    color: white;
+}
+.link_download a img,.link_download a{
+    height: 60px;
+    width: 200px;
+    margin-top: 20px;
+}
+.link_download{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1000px;
+}

@@ -1,0 +1,46 @@
+.body_holder{
+    font-size: 20px;
+    background-color: #00061D;
+    color: white;
+}
+.opening{
+    padding-top: 100px;
+    padding-left: 100px;
+
+    height: auto;
+}
+.opening img{
+    width: 700px;
+    float: Left;
+}
+.floor_list{
+    margin-left: 200px;
+}
+.floor_list a{
+    margin-left: 50px;
+}
+.biome{
+    margin-left: 200px;
+}
+.boss div{
+    width: 200px;
+    height:100px;
+    display: grid;
+}
+.boss img{
+    justify-self: center;
+}
+.biome td{
+    text-align: center;
+}
+.reveal{
+    transform: translateX(-150px);
+    opacity: 0;
+    transition: 1s all ease;
+    
+}
+.reveal.active {
+    transform: translateX(0);
+    opacity: 1;
+} 
+  

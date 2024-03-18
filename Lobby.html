@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lobby</title>
+    <link rel="stylesheet" href="./Lobby.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="./css/Footer.css">
+    <link rel="stylesheet" href="./css/Header.css">
+</head>
+<body>
+    <Header>
+        <a class="Home" href="./Home.html">
+        <div class="icon_holder">
+            <img src="./css/img/ad33b6c3ea16b9a7e3eb88e2537b6ae73d9db14bdf0535f613a4886bf220b721.jpg" alt="Soul knight icon" height="100%" width="100%">
+        </div>
+        </a>
+        <div class="header_menu">
+            <a  href="./Game_Overview.html"><h2>Game Overview</h2></a>
+        </div>
+        <div class="header_menu">
+            <a  href="./Characters.html"><h2>Characters</h2></a>
+        </div>
+        <div class="header_menu"> 
+            <a  href="./Bosses.html"><h2>Bosses</h2></a>
+        </div>
+        <div class="header_menu">
+            <a  href="./Lobby.html"><h2>Lobby</h2></a>
+        </div>
+        <!-- <div class="header_menu">
+            <a  href="./index.html"><h2>Giới thiệu SV</h2></a>
+        </div> -->
+    </Header>
+    <section class="section_1">
+        <div class="LB_container">
+            <h2 class="LB_Main_title">LOBBY</h2>
+            <div class="LB_content">
+                <div class="LB_image">
+                    <img src="./Lobby jmg/Living_Room.webp" alt="">
+                </div>
+                <div class="LR_text">
+                    <h3>Living Room</h3>
+                    <p>In the Living Room, there are many different objects and features the player can interact with for different actions:</p>
+                    <ul style="list-style: none;">
+                        <li>Choose <strong>characters</strong>.</li>
+                        <li><strong>Door</strong> - To starts the game.</li>
+                        <li><strong>Chest</strong> - Unlocked by a one-time purchase of 1,000 gems.</li>
+                        <li><strong>Mail Guy</strong> - The player will receive 500 gems when interacting with him.</li>
+                        <li><strong>Email</strong> - Used to collect Achievement rewards.</li>
+                        <li><strong>TV</strong> -  Gives 20 gold after watching an advertisement video.</li>
+                        <li><strong>Safe</strong> -  Increases the starting amount of gold coins. Upgradable by using gems.</li>
+                        <li><strong>Badass Travel</strong> - Switches the difficulty into Badass Mode upon interaction.</li>
+                        <li><strong>Fish Tank</strong> - May give a random fish weapon.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section_2">
+        <div class="LB_container">
+            <h3 class="Garden_title">Garden</h3>
+            <div class="LB_content">
+                <div class="LB_image">
+                    <img src="./Lobby jmg/Garden.webp" alt="">
+                </div>
+                <div class="GD_info">
+                    <p>The Garden is an area located to the left of the Living Room.</p><br>
+                    <p>It includes eight Garden Plots; three empty and usable, and five unlockable. It also has a Shovel, a Watering Can, the current amount of Fertilizer, 
+                        a Pet the player possesses and a Training Dummy at bottom of the garden and a Magic Well after it has been developed.</p><br>
+                    <ul>
+                        <li>Garden plots can be used to plant seeds the player has obtained.</li>
+                        <li>There is a pet at the left side of the Garden.</li>
+                        <li>Once the player has obtained seeds, the player can plant them in an empty plot.</li>
+                        <li>A plant can't be harvested twice on the same run.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section_3">
+        <div class="LB_container">
+            <h3 class="WorkShop_title">Work Shop</h3>
+            <div class="LB_content">
+                <div class="LB_image">
+                    <img src="./Lobby jmg/Workshop.webp" alt="">
+                </div>
+                <div class="WS_info">
+                    <p>The Workshop is an area located to the right of the Living Room.</p><br>
+                    <p>In this room, the player can buy Materials, forge weapons and Armor Mounts, unlock new weapons to forge from the Design Table.</p><br>
+                    <ul>
+                        <li><strong>Computer</strong> - There is a damaged Robot connected to it.</li>
+                        <li><strong>Forge Table</strong> - A weapon obtained at least 8 times will appear on the list of weapons. Any forged weapon will appear on the table, so that the player can grab it.</li>
+                        <li><strong>Trader</strong> - The Trader will place a new item after the player has bought something (up to 5 times a day).</li>
+                        <li><strong>Renovation Project Leader</strong> - Used for changing the Multiplayer waiting room skin.</li>
+                        <li><strong>Redeem Machine</strong> - Use vouchers to get random items of corresponding type.</li>
+                        <li><strong>Robotics Facility</strong> - Use materials and gems to create Armor Mounts to bring to a run.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="link_download">
+            <a href="https://play.google.com/store/apps/details?id=com.ChillyRoom.DungeonShooter&gl=US"><img src="./css/img/general_img/get-it-on-google-play.png" alt="google play"></a>
+            <a href="https://apps.apple.com/vn/app/soul-knight/id1184159988?l=vi" alt="app store"><img src="./css/img/general_img/app-store-logo.png" alt=""></a>
+        </div>
+    </footer>
+    
+    <script>
+        ScrollReveal({
+            distance: '60px',
+            duration: 2500,
+            delay: 400
+        });
+        
+        ScrollReveal().reveal('.LB_Main_title, .Garden_title', { delay: 200, origin: 'left' });
+        ScrollReveal().reveal('.section_1 .LB_image', { delay: 300, origin: 'bottom' });
+        ScrollReveal().reveal('.LR_text', { delay: 400, origin: 'right' });
+        ScrollReveal().reveal('.GD_info', { delay: 300, origin: 'top' });
+        ScrollReveal().reveal('.section_3 .LB_image', { delay: 300, origin: 'left' , interval: 200 });
+        ScrollReveal().reveal('.WS_info', { delay: 300, origin: 'right' });
+        
+    </script>
+</body>
+</html>

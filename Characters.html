@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Characters</title>
+    <div class="general_link">
+        <link rel = "icon" href = "./css/img/ad33b6c3ea16b9a7e3eb88e2537b6ae73d9db14bdf0535f613a4886bf220b721.jpg"
+                type = "image/x-icon">
+        <link rel="stylesheet" href="./css/Footer.css">
+        <link rel="stylesheet" href="./css/Header.css">
+    </div>
+    <link rel="stylesheet" href="./css/Characters.css">
+    <script src="./js/Characters.js"></script>
+</head>
+<body onload="hide_all('Knight');">
+    <Header>
+        <a class="Home" href="./Home.html">
+        <div class="icon_holder">
+            <img src="./css/img/ad33b6c3ea16b9a7e3eb88e2537b6ae73d9db14bdf0535f613a4886bf220b721.jpg" alt="Soul knight icon" height="100%" width="100%">
+        </div>
+        </a>
+        <div class="header_menu">
+            <a  href="./Game_Overview.html"><h2>Game Overview</h2></a>
+        </div>
+        <div class="header_menu">
+            <a  href="./Characters.html"><h2>Characters</h2></a>
+        </div>
+        <div class="header_menu"> 
+            <a  href="./Bosses.html"><h2>Bosses</h2></a>
+        </div>
+        <div class="header_menu">
+            <a  href="./Lobby.html"><h2>Lobby</h2></a>
+        </div>
+        <!-- <div class="header_menu">
+            <a  href="./index.html"><h2>Giới thiệu SV</h2></a>
+        </div> -->
+    </Header>
+    <div class="body_holder">
+        <div class="introduction">
+            <div class="h1_holder">
+                <h1 style="margin: 0;" >Characters</h1></div>
+                <img style="float: right;width: 600px;" src="./css/img/Chillyroom.webp" alt="Characters img">
+            <div>
+            <p><b> Characters</b> are playable heroes and can be controlled by the player in-game.</p>
+            <p>There are currently 24 playable characters, in which 5 of them are Legendary Heroes.</p>
+            <p>Different characters have a unique set of stats, skills and starter weapons (see table below). Some characters can be purchased using in-game gems, while others can only be acquired by purchasing them with real money.</p>
+            <p>The player can select a character by tapping on them in the Living Room after starting a game. Each character has their own set of skins, which are obtainable through different methods.</p>
+            <div class="lobby" style="width: 800px;height: 500px;padding:0 50px;" alt=""></div>
+            <div>
+            <p>​​​​​Levelling up a character gives the following bonuses:</p>
+            <ul class="list">
+                <img style="float: right;width: 600px;" src="./css/img/313491909_543631163866600_280902994952617737_n.png" alt="star system">
+                <li><b>1 star:</b> Permanent +1 health (cost: 500 gems)</li>
+                <li><b>2 stars:</b> Permanent +1 armor (cost: 1,000 gems)</li>
+                <li><b>3 stars:</b> Permanent +20 energy (cost: 1,500 gems)</li>
+                <li><b>4 stars:</b> Reduces skill cooldown by 2 seconds (cost: 2,000 gems)   </li>
+                <li><b>5 stars:</b> Skill upgrade - Different effects for each character and skill. Affects all skills for a single upgrade (cost: 2,500 gems)</li>
+                <li><b>6 stars:</b> The character obtains a permanent buff that complements their skills/play style (cost: 5,000 gems)</li>
+                <li><b>7 stars:</b> Permanently upgrades the character's starter weapon (cost: 8,000 gems)</li>
+                <li><b>8 stars:</b> Gives the applicable material to develop the respective Summoner's Artifact (cost: 10,000 gems)</li>
+            </ul>
+        </div></div>
+        </div>
+        <div class="cha_info">
+            <h2>Character Stats, Price, Skills</h2>
+            <p>The values in the table for health, armor and energy are initial stats (with the upgraded stats in brackets next to them).</p>
+            <h3>This is the list of normal characters</h3>
+            <div class="normal_character_menu">
+                <a href="#Knight" onclick="hide_all('Knight');">Knight</a>
+                <a href="#Rogue" onclick="hide_all('Rogue');">Rogue</a>
+                <a href="#Wizard" onclick="hide_all('Wizard');">Wizard</a>
+                <a href="#Assassin" onclick="hide_all('Assassin');">Assassin</a>
+                <a href="#Alchemist" onclick="hide_all('Alchemist');">Alchemist</a>
+                <a href="#Engineer" onclick="hide_all('Engineer');">Engineer</a>
+                <a href="#Vampire" onclick="hide_all('Vampire');">Vampire</a>
+                <a href="#Paladin" onclick="hide_all('Paladin');">Paladin</a>
+                <a href="#Elf" onclick="hide_all('Elf');">Elf</a>
+                <a href="#Werewolf" onclick="hide_all('Werewolf');">Werewolf</a>
+                <a href="#Priest" onclick="hide_all('Priest');">Priest</a>
+                <a href="#Druid" onclick="hide_all('Druid');">Druid</a>
+                <a href="#Robot" onclick="hide_all('Robot');">Robot</a>
+                <a href="#Berserker" onclick="hide_all('Berserker');">Berserker</a>
+                <a href="#Necromancer" onclick="hide_all('Necromancer');">Necromancer</a>
+                <a href="#Officer" onclick="hide_all('Officer');">Officer</a>
+                <a href="#Taoist" onclick="hide_all('Taoist');">Taoist</a>
+                <a href="#Airbender" onclick="hide_all('Airbender');">Airbender</a>
+                <a href="#Demonmancer" onclick="hide_all('Demonmancer');">Demonmancer</a>
+            </div>
+            <h3>This is the list of Legendary characters</h3>
+            <div class="legendary">
+                <a href="#Traveler" onclick="hide_all('Traveler');">Inter-dimension traveler</a>
+                <a href="#Envoy" onclick="hide_all('Envoy');">Element envoy</a>
+                <a href="#Beheaded" onclick="hide_all('Beheaded');"> The Beheaded</a>
+                <a href="#Ninja" onclick="hide_all('Ninja');">Time-traveling Ninja</a>
+                <a href="#Forces" onclick="hide_all('Forces');">Special forces</a>
+            </div>
+            <div class="display_cha">
+                <div id="Knight">
+                    <div class="character">
+                    <img src="./css/img/knight/Knight_0.gif" alt="knight">
+                        <div class="information">
+                            <h3 class="stat"><img src="./css/img/general_img/Health-0.png" alt="Health_icon"> Health:6 (7) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Armor.png" alt="Armor_icon"> Armor: 5 (6)</h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Energy.png" alt="Energy_icon">Energy: 180 (200)</h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Critical.png" alt="Critical_icon">Critical chance: 5</h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Damage.png" alt="Damage_icon">Melee damage: 4</h3>
+                            <h3 class="stat">Level 6 buff: <img style="width: 50px;" src="./css/img/knight/BuffShieldBuffer.png" alt="">No extra damage when shield is broken</h3>
+                            <h3 class="stat">Starter weapon: Bad Pistol/
+                                New Pistol</h3>
+                            <h3 class="stat">Price: 0</h3>
+                            <div class="skill">
+                                <h2>Skills</h2>
+                                <img src="./css/img/knight/Skill1.png" alt="">
+                                <img src="./css/img/knight/Skill2.png" alt="">
+                                <img src="./css/img/knight/Skill3.png" alt="">
+                                <h3>Dual Wield</h3>
+                                <h3>Superior Fire</h3>
+                                <h3>Chaotic Strike</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Rogue">
+                    <div class="character">
+                    <img src="./css/img/Rogue/Rogue_0.gif" alt="Rogue">
+                        <div class="information">
+                            <h3 class="stat"><img src="./css/img/general_img/Health-0.png" alt="Health_icon"> Health: 5 (6) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Armor.png" alt="Armor_icon"> Armor: 3 (4) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Energy.png" alt="Energy_icon">Energy: 180 (200) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Critical.png" alt="Critical_icon">Critical chance: 10</h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Damage.png" alt="Damage_icon">Melee damage: 5</h3>
+                            <h3 class="stat">Level 6 buff: <img style="width: 50px;" src="./css/img/Rogue/BuffCritPierce.png" alt="">Critical hit bullets can pierce enemies</h3>
+                            <h3 class="stat">Starter weapon: Jack and Mary</h3>
+                            <h3 class="stat">Price: 2,000 gems</h3>
+                            <div class="skill">
+                                <h2>Skills</h2>
+                                <img src="./css/img/Rogue/Skill1.png" alt="">
+                                <img src="./css/img/Rogue/Skill2.png" alt="">
+                                <img src="./css/img/Rogue/Skill3.png" alt="">
+                                <h3>Dodge</h3>
+                                <h3>Iaido</h3>
+                                <h3>Cartwheel</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Wizard">
+                    <div class="character">
+                    <img src="./css/img/Wizard/Wizard_0.gif" alt="Wizard">
+                        <div class="information">
+                            <h3 class="stat"><img src="./css/img/general_img/Health-0.png" alt="Health_icon"> Health: 3 (4) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Armor.png" alt="Armor_icon"> Armor: 5 (6) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Energy.png" alt="Energy_icon">Energy: 240 (260) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Critical.png" alt="Critical_icon">Critical chance: 0</h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Damage.png" alt="Damage_icon">Melee damage: 3</h3>
+                            <h3 class="stat">Level 6 buff: <img style="width: 50px;" src="./css/img/Wizard/BuffElementalStaff.png" alt="">Elemental bullets deal double damage on critical hit. Staff weapon deal higher damage</h3>
+                            <h3 class="stat">Starter weapon: The Code</h3>
+                            <h3 class="stat">Price: 3,000 gems</h3>
+                            <div class="skill">
+                                <h2>Skills</h2>
+                                <img src="./css/img/Wizard/Skill1.png" alt="">
+                                <img src="./css/img/Wizard/Skill2.png" alt="">
+                                <img src="./css/img/Wizard/Skill3.png" alt="">
+                                <h3>Lightning Strike</h3>
+                                <h3>Piercing Frost</h3>
+                                <h3>Firestorm</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Assassin">
+                    <div class="character">
+                    <img src="./css/img/Assassin/Assassin_0.gif" alt="Assassin">
+                        <div class="information">
+                            <h3 class="stat"><img src="./css/img/general_img/Health-0.png" alt="Health_icon"> Health: 4 (5) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Armor.png" alt="Armor_icon"> Armor: 4 (5) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Energy.png" alt="Energy_icon">Energy: 180 (200) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Critical.png" alt="Critical_icon">Critical chance: 10</h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Damage.png" alt="Damage_icon">Melee damage: 5</h3>
+                            <h3 class="stat">Level 6 buff: <img style="width: 50px;" src="./css/img/Assassin/BuffMeleeReflect.png" alt="">Melee weapons can bounce bullets</h3>
+                            <h3 class="stat">Starter weapon: Blood Blade</h3>
+                            <h3 class="stat">Price: 4,000 gems</h3>
+                            <div class="skill">
+                                <h2>Skills</h2>
+                                <img src="./css/img/Assassin/Skill1.png" alt="">
+                                <img src="./css/img/Assassin/Skill2.png" alt="">
+                                <img src="./css/img/Assassin/Skill3.png" alt="">
+                                <h3>Dark Blade</h3>
+                                <h3>Doppelgänger</h3>
+                                <h3>Invisibility</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Alchemist">
+                    <div class="character">
+                    <img src="./css/img/Alchemist/Alchemist_0.gif" alt="Alchemist">
+                        <div class="information">
+                            <h3 class="stat"><img src="./css/img/general_img/Health-0.png" alt="Health_icon"> Health: 5 (6) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Armor.png" alt="Armor_icon"> Armor: 5 (6) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Energy.png" alt="Energy_icon">Energy: 180 (200) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Critical.png" alt="Critical_icon">Critical chance: 5</h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Damage.png" alt="Damage_icon">Melee damage: 4</h3>
+                            <h3 class="stat">Level 6 buff: <img style="width: 50px;" src="./css/img/Alchemist/BuffImmunePoison.png" alt="">Immune to poison gas and slow effect, increase poison damage to monsters</h3>
+                            <h3 class="stat">Starter weapon: Dormant Bubble Machine</h3>
+                            <h3 class="stat">Price: 5,000 gems</h3>
+                            <div class="skill">
+                                <h2>Skills</h2>
+                                <img src="./css/img/Alchemist/Skill1.png" alt="">
+                                <img src="./css/img/Alchemist/Skill2.png" alt="">
+                                <img src="./css/img/Alchemist/Skill3.png" alt="">
+                                <h3>Gas Grenade</h3>
+                                <h3>Elemental Potions</h3>
+                                <h3>Concoction</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Engineer">
+                    <div class="character">
+                    <img src="./css/img/Engineer/Engineer_0.gif" alt="Engineer">
+                        <div class="information">
+                            <h3 class="stat"><img src="./css/img/general_img/Health-0.png" alt="Health_icon"> Health: 5 (6) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Armor.png" alt="Armor_icon"> Armor: 5 (6) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Energy.png" alt="Energy_icon">Energy: 180 (200) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Critical.png" alt="Critical_icon">Critical chance: 5</h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Damage.png" alt="Damage_icon">Melee damage: 3</h3>
+                            <h3 class="stat">Level 6 buff: <img style="width: 50px;" src="./css/img/Engineer/BuffImmuneFire.png" alt="">Immune to fire, decrease explosion damage, and increase fire damage to monsters</h3>
+                            <h3 class="stat">Starter weapon: H2O</h3>
+                            <h3 class="stat">Price: $1.00 / £0.99</h3>
+                            <div class="skill">
+                                <h2>Skills</h2>
+                                <img src="./css/img/Engineer/Skill1.png" alt="">
+                                <img src="./css/img/Engineer/Skill2.png" alt="">
+                                <img src="./css/img/Engineer/Skill3.png" alt="">
+                                <h3>Gun Turret</h3>
+                                <h3>Armor Mount</h3>
+                                <h3>Interceptor</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Vampire">
+                    <div class="character">
+                    <img src="./css/img/Vampire/Vampire_0.gif" alt="Vampire">
+                        <div class="information">
+                            <h3 class="stat"><img src="./css/img/general_img/Health-0.png" alt="Health_icon"> Health: 3 (4) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Armor.png" alt="Armor_icon"> Armor: 4 (5) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Energy.png" alt="Energy_icon">Energy: 120 (140) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Critical.png" alt="Critical_icon">Critical chance: 5</h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Damage.png" alt="Damage_icon">Melee damage: 3</h3>
+                            <h3 class="stat">Level 6 buff: <img style="width: 50px;" src="./css/img/Vampire/BuffHealthOrbKill.png" alt="">Enemies have a chance to drop health orbs when defeated</h3>
+                            <h3 class="stat">Starter weapon: Crimson Wine Glass</h3>
+                            <h3 class="stat">Price: $1.00 / £0.99</h3>
+                            <div class="skill">
+                                <h2>Skills</h2>
+                                <img src="./css/img/Vampire/Skill1.png" alt="">
+                                <img src="./css/img/Vampire/Skill2.png" alt="">
+                                <img src="./css/img/Vampire/Skill3.png" alt="">
+                                <h3>Bat Swarm</h3>
+                                <h3>Alien Swirl</h3>
+                                <h3>Immortal</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Paladin">
+                    <div class="character">
+                    <img src="./css/img/Paladin/Paladin_0.gif" alt="Paladin">
+                        <div class="information">
+                            <h3 class="stat"><img src="./css/img/general_img/Health-0.png" alt="Health_icon"> Health: 1 (2) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Armor.png" alt="Armor_icon"> Armor: 8 (9) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Energy.png" alt="Energy_icon">Energy: 120 (140) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Critical.png" alt="Critical_icon">Critical chance: 0</h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Damage.png" alt="Damage_icon">Melee damage: 4</h3>
+                            <h3 class="stat">Level 6 buff: <img style="width: 50px;" src="./css/img/Paladin/BuffShieldBlast.png" alt="">Release a radial blast when the shield is damaged</h3>
+                            <h3 class="stat">Starter weapon: Sacred Flail</h3>
+                            <h3 class="stat">Price: $1.00 / £0.99</h3>
+                            <div class="skill">
+                                <h2>Skills</h2>
+                                <img src="./css/img/Paladin/Skill1.png" alt="">
+                                <img src="./css/img/Paladin/Skill2.png" alt="">
+                                <img src="./css/img/Paladin/Skill3.png" alt="">
+                                <h3>Energy Shield</h3>
+                                <h3>Holy Warrior</h3>
+                                <h3>Splash & Bash</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Elf">
+                    <div class="character">
+                    <img src="./css/img/Elf/Elf_0.gif" alt="Elf">
+                        <div class="information">
+                            <h3 class="stat"><img src="./css/img/general_img/Health-0.png" alt="Health_icon"> Health: 5 (6) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Armor.png" alt="Armor_icon"> Armor: 4 (5) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Energy.png" alt="Energy_icon">Energy: 180 (200) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Critical.png" alt="Critical_icon">Critical chance: 5</h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Damage.png" alt="Damage_icon">Melee damage: 4</h3>
+                            <h3 class="stat">Level 6 buff: <img style="width: 50px;" src="./css/img/Elf/BuffChargeSpeed.png" alt="">Shorter charge time for weapons that require charging</h3>
+                            <h3 class="stat">Starter weapon: Ancient Bow</h3>
+                            <h3 class="stat">Price: 12,000 gems</h3>
+                            <div class="skill">
+                                <h2>Skills</h2>
+                                <img src="./css/img/Elf/Skill1.png" alt="">
+                                <img src="./css/img/Elf/Skill2.png" alt="">
+                                <img src="./css/img/Elf/Skill3.png" alt="">
+                                <h3>Focus Fire</h3>
+                                <h3>Arrow Rain</h3>
+                                <h3>Guardian Elf</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Werewolf">
+                    <div class="character">
+                    <img src="./css/img/Werewolf/Werewolf_0.gif" alt="Werewolf">
+                        <div class="information">
+                            <h3 class="stat"><img src="./css/img/general_img/Health-0.png" alt="Health_icon"> Health: 11 (12) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Armor.png" alt="Armor_icon"> Armor: 1 (2) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Energy.png" alt="Energy_icon">Energy: 120 (140) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Critical.png" alt="Critical_icon">Critical chance: 5</h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Damage.png" alt="Damage_icon">Melee damage: 5</h3>
+                            <h3 class="stat">Level 6 buff: <img style="width: 50px;" src="./css/img/Werewolf/BuffImmuneTrap.png" alt="">Immune to traps, and immune to collision damage</h3>
+                            <h3 class="stat">Starter weapon: Flaring Claw</h3>
+                            <h3 class="stat">Price: $2.00 / £1.99</h3>
+                            <div class="skill">
+                                <h2>Skills</h2>
+                                <img src="./css/img/Werewolf/Skill1.png" alt="">
+                                <img src="./css/img/Werewolf/Skill2.png" alt="">
+                                <img src="./css/img/Werewolf/Skill3.png" alt="">
+                                <h3>Berserk</h3>
+                                <h3>Blood Thirst</h3>
+                                <h3>Devour</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Priest">
+                    <div class="character">
+                    <img src="./css/img/Priest/Priest_0.gif" alt="Priest">
+                        <div class="information">
+                            <h3 class="stat"><img src="./css/img/general_img/Health-0.png" alt="Health_icon"> Health: 3 (4) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Armor.png" alt="Armor_icon"> Armor: 5 (6) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Energy.png" alt="Energy_icon">Energy: 200 (220) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Critical.png" alt="Critical_icon">Critical chance: 0</h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Damage.png" alt="Damage_icon">Melee damage: 3</h3>
+                            <h3 class="stat">Level 6 buff: <img style="width: 50px;" src="./css/img/Priest/BuffPotionEffectiveness.png" alt="">Improve potion effectiveness</h3>
+                            <h3 class="stat">Starter weapon: Wooden Cross</h3>
+                            <h3 class="stat">Price: 12,000 gems</h3>
+                            <div class="skill">
+                                <h2>Skills</h2>
+                                <img src="./css/img/Priest/Skill1.png" alt="">
+                                <img src="./css/img/Priest/Skill2.png" alt="">
+                                <img src="./css/img/Priest/Skill3.png" alt="">
+                                <h3>Regeneration Pact</h3>
+                                <h3>Pray</h3>
+                                <h3>Moon Shadow</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Druid">
+                    <div class="character">
+                    <img src="./css/img/Druid/Druid_0.gif" alt="Druid">
+                        <div class="information">
+                            <h3 class="stat"><img src="./css/img/general_img/Health-0.png" alt="Health_icon"> Health: 6 (7) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Armor.png" alt="Armor_icon"> Armor: 3 (4) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Energy.png" alt="Energy_icon">Energy: 130 (150) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Critical.png" alt="Critical_icon">Critical chance: 5</h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Damage.png" alt="Damage_icon">Melee damage: 5</h3>
+                            <h3 class="stat">Level 6 buff: <img style="width: 50px;" src="./css/img/Druid/BuffPet.png" alt="">Increase the effectiveness of pets and followers</h3>
+                            <h3 class="stat">Starter weapon: Crispy Bone</h3>
+                            <h3 class="stat">Price: £1.89 or $1.99</h3>
+                            <div class="skill">
+                                <h2>Skills</h2>
+                                <img src="./css/img/Druid/Skill1.png" alt="">
+                                <img src="./css/img/Druid/Skill2.png" alt="">
+                                <img src="./css/img/Druid/Skill3.png" alt="">
+                                <h3>Summon Wolves</h3>
+                                <h3>Vine</h3>
+                                <h3>Fuzzy Bear</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Robot">
+                    <div class="character">
+                    <img src="./css/img/Robot/Robot_0.gif" alt="Druid">
+                        <div class="information">
+                            <h3 class="stat"><img src="./css/img/general_img/Health-0.png" alt="Health_icon"> Health: 3 (4) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Armor.png" alt="Armor_icon"> Armor: 6 (7) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Energy.png" alt="Energy_icon">Energy: 180 (200) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Critical.png" alt="Critical_icon">Critical chance: 0</h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Damage.png" alt="Damage_icon">Melee damage: 3</h3>
+                            <h3 class="stat">Level 6 buff: <img style="width: 50px;" src="./css/img/Robot/BuffLaser.png" alt="">Increase the beam width of optoelectronic weapons and grant immunity to electro-charged damage</h3>
+                            <h3 class="stat">Starter weapon: Satellite Floating Gun</h3>
+                            <h3 class="stat">Price: 20 Parts and 20 Batteries and Having Engineer</h3>
+                            <div class="skill">
+                                <h2>Skills</h2>
+                                <img src="./css/img/Robot/Skill1.png" alt="">
+                                <img src="./css/img/Robot/Skill2.png" alt="">
+                                <img src="./css/img/Robot/Skill3.png" alt="">
+                                <h3>Electric Overload</h3>
+                                <h3>Drone Swarm</h3>
+                                <h3>EMP</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Berserker">
+                    <div class="character">
+                    <img src="./css/img/Berserker/Berserker_0.gif" alt="Berserker">
+                        <div class="information">
+                            <h3 class="stat"><img src="./css/img/general_img/Health-0.png" alt="Health_icon"> Health: 9 (10) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Armor.png" alt="Armor_icon"> Armor: 3 (4) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Energy.png" alt="Energy_icon">Energy: 150 (170) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Critical.png" alt="Critical_icon">Critical chance: 5</h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Damage.png" alt="Damage_icon">Melee damage: 5</h3>
+                            <h3 class="stat">Level 6 buff: <img style="width: 50px;" src="./css/img/Berserker/BuffFireRate.png" alt="">Increase firing speed of weapon</h3>
+                            <h3 class="stat">Starter weapon: Boxing Gloves</h3>
+                            <h3 class="stat">Price: £1.89 or $1.99</h3>
+                            <div class="skill">
+                                <h2>Skills</h2>
+                                <img src="./css/img/Berserker/Skill1.png" alt="">
+                                <img src="./css/img/Berserker/Skill2.png" alt="">
+                                <img src="./css/img/Berserker/Skill3.png" alt="">
+                                <h3>Rage</h3>
+                                <h3>Free Style</h3>
+                                <h3>Leap</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Necromancer">
+                    <div class="character">
+                    <img src="./css/img/Necromancer/Necromancer_0.gif" alt="Necromancer">
+                        <div class="information">
+                            <h3 class="stat"><img src="./css/img/general_img/Health-0.png" alt="Health_icon"> Health: 3 (4) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Armor.png" alt="Armor_icon"> Armor: 5 (6) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Energy.png" alt="Energy_icon">Energy: 240 (260) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Critical.png" alt="Critical_icon">Critical chance: 0</h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Damage.png" alt="Damage_icon">Melee damage: 4</h3>
+                            <h3 class="stat">Level 6 buff: <img style="width: 50px;" src="./css/img/Necromancer/BuffSlowBullets.png" alt="">Decrease monster bullet speed, larger pickup radius</h3>
+                            <h3 class="stat">Starter weapon: Staff of Plague</h3>
+                            <h3 class="stat">Price: $1.99 / £1.89</h3>
+                            <div class="skill">
+                                <h2>Skills</h2>
+                                <img src="./css/img/Necromancer/Skill1.png" alt="">
+                                <img src="./css/img/Necromancer/Skill2.png" alt="">
+                                <img src="./css/img/Necromancer/Skill3.png" alt="">
+                                <h3>Nightmare</h3>
+                                <h3>Omen Stone</h3>
+                                <h3>Souls Resurrect</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Officer">
+                    <div class="character">
+                    <img src="./css/img/Officer/Officer_0.gif" alt="Officer">
+                        <div class="information">
+                            <h3 class="stat"><img src="./css/img/general_img/Health-0.png" alt="Health_icon"> Health: 5 (6) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Armor.png" alt="Armor_icon"> Armor: 5 (6) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Energy.png" alt="Energy_icon">Energy: 180 (200) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Critical.png" alt="Critical_icon">Critical chance: 5</h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Damage.png" alt="Damage_icon">Melee damage: 4</h3>
+                            <h3 class="stat">Level 6 buff: <img style="width: 50px;" src="./css/img/Officer/BuffCombo.png" alt="">Increase the number of combo hits for combo-hit weapons</h3>
+                            <h3 class="stat">Starter weapon: Nemesis of Villains</h3>
+                            <h3 class="stat">Obtained by completing 10 tasks</h3>
+                            <div class="skill">
+                                <h2>Skills</h2>
+                                <img src="./css/img/Officer/Skill1.png" alt="">
+                                <img src="./css/img/Officer/Skill2.png" alt="">
+                                <img src="./css/img/Officer/Skill3.png" alt="">
+                                <h3>Gun Spin</h3>
+                                <h3>Bounty Tag</h3>
+                                <h3>Close Air Support</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Taoist">
+                    <div class="character">
+                    <img src="./css/img/Taoist/Taoist_0.gif" alt="Taoist">
+                        <div class="information">
+                            <h3 class="stat"><img src="./css/img/general_img/Health-0.png" alt="Health_icon"> Health: 4 (5) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Armor.png" alt="Armor_icon"> Armor: 4 (5) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Energy.png" alt="Energy_icon">Energy: 180 (200) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Critical.png" alt="Critical_icon">Critical chance: 5</h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Damage.png" alt="Damage_icon">Melee damage: 4</h3>
+                            <h3 class="stat">Level 6 buff: <img style="width: 50px;" src="./css/img/Taoist/BuffTaoArts.png" alt="">Tao Arts</h3>
+                            <h3 class="stat">Starter weapon: Tao Sword</h3>
+                            <h3 class="stat">Price: $2.00 / £1.99</h3>
+                            <div class="skill">
+                                <h2>Skills</h2>
+                                <img src="./css/img/Taoist/Skill1.png" alt="">
+                                <img src="./css/img/Taoist/Skill2.png" alt="">
+                                <img src="./css/img/Taoist/Skill3.png" alt="">
+                                <h3>Genesis of Swords</h3>
+                                <h3>Bagua</h3>
+                                <h3>Sword Fly</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Airbender">
+                    <div class="character">
+                    <img src="./css/img/Airbender/Airbender_0.gif" alt="Taoist">
+                        <div class="information">
+                            <h3 class="stat"><img src="./css/img/general_img/Health-0.png" alt="Health_icon"> Health: 4 (5) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Armor.png" alt="Armor_icon"> Armor: 6 (7) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Energy.png" alt="Energy_icon">Energy: 160 (180) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Critical.png" alt="Critical_icon">Critical chance: 15</h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Damage.png" alt="Damage_icon">Melee damage: Replaced by starter weapon</h3>
+                            <h3 class="stat">Level 6 buff: <img style="width: 50px;" src="./css/img/Airbender/BuffBareHand.png" alt="">Airbender's barehanded attack deals 3 instances of consecutive damage and release a conical Qi-gong wave which inflicts AoE damage.</h3>
+                            <h3 class="stat">Starter weapon: Qian-kun Punch</h3>
+                            <h3 class="stat">Obtain by achieving "No Discord, No Concord" Achievement</h3>
+                            <div class="skill">
+                                <h2>Skills</h2>
+                                <img src="./css/img/Airbender/SKill1.png" alt="">
+                                <img src="./css/img/Airbender/Skill2.png" alt="">
+                                <img src="" alt="">
+                                <h3>Pulsating Blow</h3>
+                                <h3>Orbiting Stars</h3>
+                                <h3></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Demonmancer">
+                    <div class="character">
+                    <img src="./css/img/Demonmancer/Demonmancer_0.gif" alt="Taoist">
+                        <div class="information">
+                            <h3 class="stat"><img src="./css/img/general_img/Health-0.png" alt="Health_icon"> Health: 4 (5) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Armor.png" alt="Armor_icon"> Armor: 5 (6) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Energy.png" alt="Energy_icon">Energy: 213 (233) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Critical.png" alt="Critical_icon">Critical chance: 0</h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Damage.png" alt="Damage_icon">Melee damage: 4</h3>
+                            <h3 class="stat">Level 6 buff: <img style="width: 50px;" src="./css/img/Demonmancer/BuffSummonFieryImp.png" alt="">Summon a fiery imp upon killing an enemy. Fiery imp follows you around to block bullets. Exclusive to this character.</h3>
+                            <h3 class="stat">Starter weapon: Key of the Faint Star</h3>
+                            <h3 class="stat">Price: $1.99</h3>
+                            <div class="skill">
+                                <h2>Skills</h2>
+                                <img src="./css/img/Demonmancer/Skill1.png" alt="">
+                                <img src="./css/img/Demonmancer/Skill2.png" alt="">
+                                <img src="" alt="">
+                                <h3>Amii's Burning Body</h3>
+                                <h3>Helping Hand: Eligos</h3>
+                                <h3></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Traveler">
+                    <div class="character">
+                    <img src="./css/img/Traveler/Inter_dimension_traveler_0.gif" alt="Inter_dimension_traveler">
+                        <div class="information">
+                            <h3 class="stat"><img src="./css/img/general_img/Health-0.png" alt="Health_icon"> Health: 2 </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Armor.png" alt="Armor_icon"> Armor: 3 </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Energy.png" alt="Energy_icon">Energy: 21 </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Critical.png" alt="Critical_icon">Critical chance: 5</h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Damage.png" alt="Damage_icon">Melee damage: 4</h3>
+                            <h3 class="stat">Level 6 buff: <img style="width: 50px;" src="./css/img/Traveler/Damage_immunity_chance.png" alt="">Chance to be immune to all damage</h3>
+                            <h3 class="stat">Starter weapon: Dimensional Grip</h3>
+                            <h3 class="stat">Price: 22000 gems (10000 from both Priest and Necromancer upgrades; 2000 from Dimension Travel Guide development)</h3>
+                            <div class="skill">
+                                <h2>Skills</h2>
+                                <img src="" alt="">
+                                <img src="./css/img/Traveler/Skill.png" alt="">
+                                <img src="" alt="">
+                                <h3></h3>
+                                <h3>Dimension Jumping</h3>
+                                <h3></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Envoy">
+                    <div class="character">
+                    <img src="./css/img/Envoy/Envoy_1.gif" alt="Element_envoy">
+                        <div class="information">
+                            <h3 class="stat"><img src="./css/img/general_img/Health-0.png" alt="Health_icon"> Health: 4 </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Armor.png" alt="Armor_icon"> Armor: 4 </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Energy.png" alt="Energy_icon">Energy: 320 </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Critical.png" alt="Critical_icon">Critical chance: 5</h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Damage.png" alt="Damage_icon">Melee damage: 4</h3>
+                            <h3 class="stat">Level 6 buff: <img style="width: 50px;" src="./css/img/Envoy/Immune_to_fire_and_freeze.png" alt="">Immune to fire, take less explosion damage, and increase fire damage to enemies. Immune to freeze, and apply extra freeze time to enemies.</h3>
+                            <h3 class="stat">Starter weapon: Visage of Elemental Power</h3>
+                            <h3 class="stat">Price: 22000 gems (10000 from both Wizard and Elf upgrades; 2000 from Echo Amber development)</h3>
+                            <div class="skill">
+                                <h2>Skills</h2>
+                                <img src="" alt="">
+                                <img src="./css/img/Envoy/Skill2.png" alt="">
+                                <img src="" alt="">
+                                <h3></h3>
+                                <h3>Tablet of Elements</h3>
+                                <h3></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Beheaded">
+                    <div class="character">
+                    <img src="./css/img/Beheaded/Beheaded_0.gif" alt="Beheaded">
+                        <div class="information">
+                            <h3 class="stat"><img src="./css/img/general_img/Health-0.png" alt="Health_icon"> Health: 7 </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Armor.png" alt="Armor_icon"> Armor: 4 </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Energy.png" alt="Energy_icon">Energy: 200 </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Critical.png" alt="Critical_icon">Critical chance: 5</h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Damage.png" alt="Damage_icon">Melee damage: 4</h3>
+                            <h3 class="stat">Level 6 buff: <img style="width: 50px;" src="./css/img/Beheaded/Great_Owl_Buff.png" alt="">A Great Owl pet follows you around. It disappears for a while if you take any damage.</h3>
+                            <h3 class="stat">Starter weapon: Vorpan</h3>
+                            <h3 class="stat">Price: 2000 Gems (from Cytoplasm development)</h3>
+                            <div class="skill">
+                                <h2>Skills</h2>
+                                <img src="" alt="">
+                                <img src="./css/img/Beheaded/Skill.png" alt="">
+                                <img src="" alt="">
+                                <h3></h3>
+                                <h3>Spartan Sandals</h3>
+                                <h3></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Ninja">
+                    <div class="character">
+                    <img src="./css/img/Ninja/Time_traveling_ninja_0.gif" alt="Ninja">
+                        <div class="information">
+                            <h3 class="stat"><img src="./css/img/general_img/Health-0.png" alt="Health_icon"> Health: 5 </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Armor.png" alt="Armor_icon"> Armor: 5 </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Energy.png" alt="Energy_icon">Energy: 190(210) </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Critical.png" alt="Critical_icon">Critical chance: 5</h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Damage.png" alt="Damage_icon">Melee damage: 4</h3>
+                            <h3 class="stat">Level 6 buff: <img style="width: 50px;" src="./css/img/Ninja/Time_traveling_ninja_0.gif" alt="">Body Arts</h3>
+                            <h3 class="stat">Starter weapon: Molecule Ichimonji</h3>
+                            <h3 class="stat">Price: 22000 gems (10000 from both Assassin and Engineer upgrades; 2000 from Time Traveler's Gadget development)</h3>
+                            <div class="skill">
+                                <h2>Skills</h2>
+                                <img src="" alt="">
+                                <img src="./css/img/Ninja/Skill.png" alt="">
+                                <img src="" alt="">
+                                <h3></h3>
+                                <h3>Time-Space Shuriken</h3>
+                                <h3></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Forces">
+                    <div class="character">
+                    <img src="./css/img/Ninja/Specialforces_0.gif" alt="Special_forces">
+                        <div class="information">
+                            <h3 class="stat"><img src="./css/img/general_img/Health-0.png" alt="Health_icon"> Health: 5 </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Armor.png" alt="Armor_icon"> Armor: 8 </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Energy.png" alt="Energy_icon">Energy: 200 </h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Critical.png" alt="Critical_icon">Critical chance: 5</h3>
+                            <h3 class="stat"><img src="./css/img/general_img/Damage.png" alt="Damage_icon">Melee damage: 4</h3>
+                            <h3 class="stat">Level 6 buff: <img style="width: 50px;" src="./css/img/Ninja/BuffFastSlash.png" alt="">Three Special Forces Knights are masters of different types of weapons. Red Knight: Attacks with melee weapons release projectiles. Blue Knight: Attacks with staffs are more powerful. Green Knight: Faster bullet speed for all guns</h3>
+                            <h3 class="stat">Starter weapon: S.O. Firearm</h3>
+                            <h3 class="stat">22000 gems (10000 from both Officer and Knight upgrades; 2000 from Walkie Talkie development)</h3>
+                            <div class="skill">
+                                <h2>Skills</h2>
+                                <img src="" alt="">
+                                <img src="./css/img/Ninja/Skill2.png" alt="">
+                                <img src="" alt="">
+                                <h3></h3>
+                                <h3>Special Operation</h3>
+                                <h3></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </div>
+
+    </div>
+    <footer>
+        <div class="link_download">
+            <a href="https://play.google.com/store/apps/details?id=com.ChillyRoom.DungeonShooter&gl=US"><img src="./css/img/general_img/get-it-on-google-play.png" alt="google play"></a>
+            <a href="https://apps.apple.com/vn/app/soul-knight/id1184159988?l=vi" alt="app store"><img src="./css/img/general_img/app-store-logo.png" alt=""></a>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,77 @@
+body{
+    color: white;
+}
+.body_holder h1{
+    text-align: center;
+}
+.introduction .h1_holder{
+    padding: 100px 100px 100px 100px;
+    font-size: 30px;
+}
+.introduction{
+    padding:0 100px 0 150px;
+}
+.body_holder{
+    padding:0 100px 0 150px;
+    background-color: #00061D;
+    font-size: 20px;
+}
+.character{
+    display: grid;
+    grid-template-rows: auto auto;
+}
+.character img{
+    width: 300px;
+    justify-self: center;
+}
+.information{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+    padding: 10px;
+}
+.stat img{
+    width: 20px;
+}
+.skill{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.skill h2{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    justify-self: center;
+}
+.skill img{
+    width: 50%;
+}
+.skill h3{
+    justify-self: center;
+}
+.normal_character_menu,.legendary{
+    display: grid;
+    grid-template-columns:auto auto auto auto auto;
+}
+.normal_character_menu a,.legendary a{
+    text-decoration: none;
+    color: lightblue;
+}
+.normal_character_menu a:hover,.legendary a:hover{
+    color: rgb(0, 76, 191);
+}
+.lobby{
+    background-image: url(./img/Lobby.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: Lobbyanimation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes Lobbyanimation {
+    0%{    background-image: url(./img/Lobby.png);}
+    25%{    background-image: url(./img/general_img/maxresdefault.png);}
+    50%{    background-image: url(./img/general_img/Screenshot_20171029-114505.png);}
+    75%{    background-image: url(./img/general_img/317203259_473678624852263_4956813260963075317_n.jpg);}
+}
